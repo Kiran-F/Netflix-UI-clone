@@ -1,0 +1,124 @@
+.loginpage{
+    height: 100vh;
+}
+.logo{
+    width: 130px;
+}
+.main {
+    background-color: rgba(0, 0, 0, 0.406);
+}
+.form{
+    width: 450px;
+    background-color: rgba(0, 0, 0, 0.696);
+    padding: 15px 40px;
+    margin: 0px auto;
+}
+.form h1{
+    font-size: 30px;
+    margin: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+form input{
+    width: 95%;
+    padding: 20px 10px;
+    margin: 7px;
+    font-size: 16px;
+}
+form p{
+    color: rgb(159, 158, 158);
+}
+form button{
+    width: 95%;
+    padding: 10px 10px;
+    margin: 10px auto;
+    font-size: 17px;
+    color: white;
+    border-radius: 5px;
+}
+form .signIn{
+    background-color: red;
+    border: none;
+    transition: 0.5s all;
+}
+form .signIn:hover{
+    background-color: rgb(212, 5, 5);
+    cursor: pointer;
+    transition: 0.5s all;
+}
+form .usecode{
+    background-color: rgba(80, 79, 79, 0.847);
+    border: none;
+}
+form .usecode:hover{
+    cursor: pointer;
+    background-color: rgba(80, 79, 79, 0.904);
+}
+form input{
+    background-color: rgba(18, 18, 18, 0.516);
+    border: 1px solid rgba(128, 128, 128, 0.683);
+    border-radius: 5px;
+    color: white;
+}
+form a{
+    color: white;
+    text-decoration: none;
+    margin: 10px auto;
+}
+form a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(99, 98, 98);
+}
+.form input{
+    margin: 10px 0px;
+}
+.form p{
+    color: rgb(142, 142, 142);
+}
+.form p a{
+    color: white;
+    text-decoration: none;
+}
+.form p a b:hover{
+    text-decoration: underline;
+}
+.lastlines{
+    font-size: 13px;
+    margin: 13px 0px;
+}
+
+
+
+@media screen and (max-width: 780px){
+    .logo{
+        width: 100px;
+    }
+}
+@media screen and (max-width: 490px){
+    .main{
+        background-color: black;
+    }
+    .form{
+        width: 100%;
+        padding: 15px 0px;
+    }
+}
+@media screen and (max-width: 375px){
+    form input{
+        padding: 15px 10px;
+        margin: 7px;
+        font-size: 16px;
+    }
+    .main{
+        padding: 15px 10px;
+    }
+    body, html{
+        overflow-x: hidden;
+    }
+}
