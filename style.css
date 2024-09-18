@@ -187,6 +187,21 @@ nav img {
     background-color: rgba(128, 128, 128, 0.363);
     transition: 0.25s all;
 }
+.answer{
+    margin: 7px;
+    background-color: rgba(128, 128, 128, 0.363);
+    font-size: 22px;
+    max-height: 0;
+    overflow: hidden;
+    /* transition: max-hight 1s ease; */
+}
+.answer p{
+    padding: 18px 15px;
+    line-height: 30px;
+}
+.whole-question.active .answer{
+    max-height: 500px;
+}
 .question{
     font-size: 22px;
 }
